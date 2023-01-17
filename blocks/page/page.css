@@ -1,0 +1,38 @@
+@font-face {
+	font-family: 'Inter';
+  font-weight: 400;
+	src: local('Inter'),
+		url('../../fonts/Inter-Regular.otf'); 
+}
+
+@font-face {
+	font-family: 'Inter';
+  font-weight: 900;
+	src: local('Inter'),
+		url('../../fonts/Inter-Black.otf'); 
+}
+
+@font-face {
+	font-family: 'Inter';
+  font-weight: 700;
+	src: local('Inter'),
+		url('../../fonts/Inter-SemiBold.otf'); 
+}
+
+.page {
+	/* сглаживание текста */
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+/* шасштаб текста */
+  -webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%; 
+/* читаемость */
+  text-rendering: optimizeLegibility;
+
+	font-family: 'Inter', Helvetica, sans-serif;
+	color: #FFFFFF;
+	background-color: #2A2C2F;
+	width: 100%;
+	min-width: 320px;
+}
