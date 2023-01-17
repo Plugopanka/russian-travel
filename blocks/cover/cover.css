@@ -2,7 +2,7 @@
   max-width: 93%;
   min-height: 740px;
   margin: 92px auto 0;
-  background-image: url("/images/cover-rails.jpg");
+  background-image: url("../../images/cover-rails.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
