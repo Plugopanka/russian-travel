@@ -4,10 +4,15 @@
 	line-height: 1.4;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
-	margin: 0;
-	/* несостыковка с макетом? */
-	margin-top: 2px;
+	margin: 4px 0 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__caption {
+		margin: 1px 0 0;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   .lead__caption {
